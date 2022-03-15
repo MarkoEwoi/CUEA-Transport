@@ -10,28 +10,16 @@
     <link href="user.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <div class="header">Header</div>
+    <div class="nav">Navigation</div>
+    
+    <div class="aside"></div>
     <form id="form1" runat="server">
-        <div class="header">CUEA TRANSPORT SYSTEM</div>
-        <div class="nav">
-            <asp:Button ID="Button1" runat="server" Text="Home" />
-            <asp:Button ID="Button2" runat="server" Text="Contacts" />
-            <asp:Button ID="Button3" runat="server" Text="Faqs" />
-        </div>
-
-        <div class="aside">Aside
-
-            <p>Anything</p>
-        </div>
-        
-
-        
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
             </asp:ContentPlaceHolder>
         </div>
-        <div class="footer">ALL RIGHTS RESERVED &COPY;2022</div>
-
+        <div class="footer">Footer</div>
     </form>
 </body>
 </html>
