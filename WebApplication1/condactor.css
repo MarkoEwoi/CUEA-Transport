@@ -1,0 +1,63 @@
+﻿body {
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    margin: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    height: 30px;
+    margin: 20px;
+}
+
+.btnsearch {
+    float: right;
+    margin: 10px;
+}
+
+.search {
+    float: right;
+    margin: 10px;
+}
+
+.aside {
+    background-color: maroon;
+    color: white;
+    width: 20%;
+    height: 154px;
+    float: left;
+    margin: 20px;
+}
+
+.article {
+    background-color: beige;
+    color: white;
+    width: 70%;
+    height: fit-content;
+    float: right;
+    margin: 20px;
+    color: black;
+}
+
+.footer {
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    clear: both;
+    margin: 20px;
+    text-align: center;
+   
+}

@@ -106,6 +106,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="condactor.css" />
+    <Content Include="confirmpassengers.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -125,7 +127,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="user.css" />
+    <Content Include="ViewBookings.aspx" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="conductor.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -171,6 +175,20 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="conductor.Master.cs">
+      <DependentUpon>conductor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="conductor.Master.designer.cs">
+      <DependentUpon>conductor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="confirmpassengers.aspx.cs">
+      <DependentUpon>confirmpassengers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="confirmpassengers.aspx.designer.cs">
+      <DependentUpon>confirmpassengers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -205,9 +223,17 @@
     </Compile>
     <Compile Include="user.Master.cs">
       <DependentUpon>user.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="user.Master.designer.cs">
       <DependentUpon>user.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBookings.aspx.cs">
+      <DependentUpon>ViewBookings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewBookings.aspx.designer.cs">
+      <DependentUpon>ViewBookings.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
