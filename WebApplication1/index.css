@@ -1,0 +1,44 @@
+﻿body {
+}
+.head{
+    background-color:maroon;
+    color:white;
+    width:100%;
+    height:fit-content;
+    margin:20px;
+    text-align:center;
+
+}
+.nav {
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    margin: 20px;
+    text-align: center;
+}
+.side {
+    background-color: maroon;
+    color: white;
+    width: 22%;
+    height: 123px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+.article {
+    background-color: beige;
+    color: white;
+    width: 70%;
+    height: fit-content;
+    margin: 20px;
+    float: right text-align:center;
+}
+.footer {
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    margin: 20px;
+    text-align: center;
+}
