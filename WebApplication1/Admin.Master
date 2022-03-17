@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebApplication1.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Admin.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  
+    <form id="form1" runat="server">
+        <div class="header">
+            <p style="margin-left: 80px">
+                CUEA TRANSPORT SYSTEM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+        </div>
+        <div class="nav">
+            <asp:Button ID="Button1" runat="server" Text="Home" />
+            <asp:Button ID="Button2" runat="server" Text="contact us" />
+            <asp:Button ID="Button3" runat="server" Text="Faqs" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="btnsearch" runat="server" CssClass="btnsearch" Text="Search" />
+            <asp:TextBox ID="txtsearch" CssClass="search" runat="server"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="aside">
+            <br />
+            <asp:Button ID="btnDrivers" runat="server" Text="Drivers" OnClick="btnDrivers_Click" />
+            <br />
+            <br />
+            <asp:Button ID="btnUsers" runat="server" Text="Users" />
+            <br />
+            <br />
+            <asp:Button ID="btnVehicles" runat="server" OnClick="btnVehicles_Click" Text="Vehicles" />
+            <br />
+            <br />
+            <asp:Button ID="btnBookings" runat="server" Text="Bookings" />
+            <br />
+            <br />
+            <asp:Button ID="btnDashboard" runat="server" Text="Dashboard" />
+        </div>
+       
+        <div class="article">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         
+        <div class="footer">
+            <p>
+                © ALL RIGHTS RESERVED 2022</p>
+        </div>
+    </form>
+</body>
+</html>
