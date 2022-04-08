@@ -13,5 +13,15 @@ namespace WebApplication1
         {
 
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/ViewBookings.aspx");
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/confirmpassengers.aspx");
+        }
     }
 }

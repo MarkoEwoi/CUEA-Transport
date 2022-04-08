@@ -26,11 +26,11 @@
         </div>
         <div class="aside">
             <br />
-            <asp:Button ID="Button4" runat="server" Text="View Bookings" />
+            <asp:Button ID="Button4" runat="server" Text="View Bookings" OnClick="Button4_Click" />
             <br />
             <br />
             <br />
-            <asp:Button ID="Button5" runat="server" Text="Confirm Passengers" Width="129px" />
+            <asp:Button ID="Button5" runat="server" Text="Confirm Passengers" Width="129px" OnClick="Button5_Click" />
         </div>
        
         <div class="article">
